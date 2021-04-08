@@ -245,7 +245,7 @@ function setup() {
 
 function draw() {
     background(3, 244, 252, 10);
-    let targetX = mouseX; //draw 안에서만 사용하는
+    let targetX = mouseX; //draw 안에서만 사용
     x += (targetX - x) * easing;
     //x = x + (targetX - x) * easing
 
